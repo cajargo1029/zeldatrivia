@@ -1,0 +1,73 @@
+body {
+  font-family: 'Trebuchet MS', sans-serif;
+    background: url("https://w.wallhaven.cc/full/lm/wallhaven-lmvq8r.jpg") no-repeat center center fixed;
+  background-size:cover;
+  color: #fff;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+}
+
+h1 {
+  margin-bottom: 30px;
+  color: #e7c508;
+  
+}
+
+#quiz-container, #result-container {
+  background: #22b94d;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.6);
+}
+
+#question {
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+.option-btn {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  background: #63d758;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  color: #fff;
+  font-size: 16px;
+}
+
+.option-btn:hover {
+  background: #e8d610;
+}
+
+.option-btn.selected {
+  background: #ffd700;
+  color: #000;
+  font-weight: bold;
+  box-shadow: 0 0 12px #ffd700;
+}
+
+
+#next-btn, #retry-btn {
+  margin-top: 15px;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  background: #ffd700;
+  color: #000;
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}

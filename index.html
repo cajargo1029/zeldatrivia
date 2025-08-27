@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zelda Trivia</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>¿Qué tan ZELDER@ eres?</h1>
+    <div id="quiz-container">
+      <div id="question"></div>
+      <div id="options"></div>
+      <button id="next-btn">Siguiente</button>
+    </div>
+    <div id="result-container" class="hidden">
+      <h2>Resultado</h2>
+      <p id="score"></p>
+      <p id="rank"></p>
+      <button id="retry-btn">Volver a jugar</button>
+    </div>
+  </div>
+  <audio id="bg-music" autoplay loop>
+    <source src="https://archive.org/details/Zelda-OOT-3D-OST/The+Legend+of+Zelda+Ocarina+of+Time+3D+Official+Soundtrack+%5B74981A%5D+(L100-C)/14+-+Zelda's+Theme.flac" type="audio/mpeg">
+  </audio>
+  <script src="script.js"></script>
+</body>
+</html>
